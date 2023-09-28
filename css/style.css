@@ -1,0 +1,33 @@
+/* Google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700;800;900&family=Barlow:wght@900&family=Poppins:wght@500&family=Work+Sans:wght@100;200;300;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;700;800;900&family=Barlow:wght@900&family=Poppins:wght@500&family=Roboto:wght@300;400;500;700;900&family=Work+Sans:wght@100;200;300;700&display=swap');
+
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+
+  }
+:root {
+  /* background color */
+  --bg-white : #fff;
+  /* text color */
+  --primary-text: #061738;
+  --secondary-color: #60cd12 ;
+  --light-color: #e2f6de  ;
+  --dark-color: #032623 ;
+  --text-white: #fff   ;
+  --text-gray: #dee2e6    ;
+  --anchor-color: #007aff  ;
+
+  /* font family */
+  --primary-font: 'barlow condensed' , sans-serif;
+  --secondary-font: 'roboto', sans-serif;
+}
+
