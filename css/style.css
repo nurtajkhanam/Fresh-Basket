@@ -17,6 +17,8 @@
 :root {
   /* background color */
   --bg-white : #fff;
+  --bg-dark-color: #032623 ;
+
   /* text color */
   --primary-text: #061738;
   --secondary-color: #60cd12 ;
@@ -276,4 +278,41 @@ section {
 .banner_section .carousel-caption p{
   max-width: 40rem;
   margin-bottom: 2rem;
+}
+
+/* 03 feature section */
+.feature_section .features-box {
+  background-color: transparent ;
+  border: 0.15rem solid var(--light-color);
+  padding: 8rem 0;
+  transition: all 0.3s;
+}
+.feature_section .features-icon-border {
+  background-color: transparent;
+  border: 0.2rem solid var(--light-color);
+  border-radius: 50%;
+  padding: 1.3rem;
+  display: inline-block;
+}
+.feature_section .features-box .features-icon {
+  height: 6.5rem;
+  width: 6.5rem;
+  background-color: var(--light-color);
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature_section .features-box .features-icon img{
+  width: 3.7rem;
+
+}
+.feature_section .features-box h3{
+  margin-top: 1.5rem;
+  color: var(--primary-text);
+}
+.feature_section .features-box:hover{
+  background-color: var(--bg-dark-color);
+  border-color: var(--bg-dark-color);
 }
