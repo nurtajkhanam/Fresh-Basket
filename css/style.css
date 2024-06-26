@@ -256,6 +256,7 @@ section {
   background-position: center;
   background-size: cover;
   min-height: 90vh;
+  /* margin-bottom: 0; */
   
 }
 .banner_section .carousel-item {
@@ -315,4 +316,209 @@ section {
 .feature_section .features-box:hover{
   background-color: var(--bg-dark-color);
   border-color: var(--bg-dark-color);
+}
+.feature_section .features-box:hover h3{
+  color: var(--text-white);
+}
+.feature_section .features-box:hover .features-icon-border{
+  border-color: var(--secondary-color);
+}
+
+
+/* 04 About section */
+.landing-about-section {
+  background: url("../images/about/about-banner.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 9rem 0;
+}
+.landing-about-section p {
+  color: var(--primary-text);
+  margin-bottom: 2rem;
+}
+
+/* 05 Product Card Design */
+.landing_product_section .product-card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border:  0.2rem solid var(--light-color);
+  padding: 2rem 1rem;
+  transition: all 0.3s;
+
+}
+.landing_product_section .product-card .product-img{
+  margin-bottom: 7rem;
+  text-align: center;
+}
+.landing_product_section .product-card h3 {
+  color: var(--primary-text);
+}
+.landing_product_section .product-card span{
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+  text-decoration: line-through;
+  transition: all 0.3s;
+}
+.landing_product_section .product-card .product-detail {
+  position: absolute;
+  bottom: -22rem;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 5rem 1rem;
+  background-color: var(--dark-color);
+  transition: all 0.5s ease;
+}
+.landing_product_section .product-card:hover .product-detail {
+  bottom: 0;
+}
+
+/* 06 Testimonial Section */
+.testimonial_section{
+  background-color: var(--light-color);
+  padding-bottom: 8rem;
+}
+.testimonial_section .carousel-indicators{
+  bottom: 6rem;
+}
+.testimonial_section .carousel-indicators button {
+  background-color: var(--dark-color);
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  
+}
+.testimonial_section .card {
+  background: url(../images/testimonial/testimonial-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: right;
+  padding: 5rem 5rem 5rem 0;
+  border-radius: 0 .5rem .5rem 0;
+  border: 0.1rem solid transparent;
+}
+.testimonial_section .profile-box {
+  padding: 1.875rem;
+  background-color: var(--dark-color);
+  border-radius: .5rem 0 0 .5rem;
+}
+.testimonial_section .profile-box img{
+  border-radius: .625rem 3.125rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.testimonial_section .desc-box{
+  padding-left: 2.5rem;
+}
+
+/* 07 Gallery Section */
+.gallery_section img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+/* 08 Footer Section */
+.footer_wrapper{
+  background: url(../images/footer-bg/footer_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 15rem;
+  padding-bottom: 0rem;
+}
+.footer_wrapper h5{
+  color: var(--text-white);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+.footer_wrapper ul li{
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+.footer_wrapper .company-details {
+  font-size: 1.4rem;
+}
+.footer_wrapper .contact-info li a {
+  color: var(--text-gray);
+  font-size: 1.6rem;
+}
+.footer_wrapper .link-widget li a ,
+.footer_wrapper p{
+  color: var(--text-gray);
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+
+}
+.footer_wrapper .link-widget li a:before{
+  content: '\f105';
+  font-family: "Font Awsome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.footer_wrapper .link-widget li a:hover{
+  margin-left: .625rem;
+  font-size: 2.25rem;
+  color: var(--secondary-color);
+}
+.footer_wrapper .social-network a{
+  width: 3.5rem;
+  height: 3.5rem;
+  line-height: 3.2rem;
+  margin: .5rem;
+  display: inline-block;
+  border: 0.125rem solid var(--text-gray) ;
+  color: var(--text-gray);
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); 
+
+} 
+.footer_wrapper .social-network a:hover{
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-white);
+  box-shadow:0  0.625rem .9375rem 0 rgb(0 0 0 / 10%) ;
+  transform: translateY(-0.1875rem);
+}
+.footer_wrapper .form-control{
+  font-size: 2rem;
+  color: var(--text-white);
+}
+.footer_wrapper .form-control:focus{
+  outline: none;
+  box-shadow: none;
+  border-color: var(--secondary-color);
+}
+.footer_wrapper .copyright-section{
+  text-align: center;
+  margin-top: 5rem;
+  background-color: var(--secondary-color);
+}
+.footer_wrapper .copyright-section p{
+  margin-top: 0;
+  padding: 3rem 0;
+  line-height: 0;
+}
+.footer_wrapper .copyright-section a{
+  color: var(--primary-text);
+  font-weight: 600;
+
 }
