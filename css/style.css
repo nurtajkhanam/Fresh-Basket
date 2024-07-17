@@ -522,3 +522,28 @@ section {
   font-weight: 600;
 
 }
+
+/* =====================================
+            About Page CSS
+===========================================*/
+.banner_section .banner-content h1{
+  margin-top: 95px;
+}
+
+.about .about-details p{
+  color: var(--primary-text);
+}
+
+/* =====================================
+            Product Page CSS
+===========================================*/
+.product .product-details p{
+  margin-bottom: 1.5rem;
+}
+
+
+
+
+/* =====================================
+            Contact Page CSS
+===========================================*/
