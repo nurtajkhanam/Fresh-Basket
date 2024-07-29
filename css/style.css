@@ -171,7 +171,8 @@ section {
 .about .banner_section, 
 .product .banner_section,
 .gallery .banner_section,
-.contact .banner_section{
+.contact .banner_section,
+.distributor .banner_section{
   background: url('../images/banner-slide/top-banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
